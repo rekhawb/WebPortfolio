@@ -18,9 +18,18 @@ function onClick(element) {
      else if(element.alt === "Bingo"){
         captionText.innerHTML = `<span class="w3-center" style="font-size:2rem"><a href=" https://rekhawb.github.io/Bingo/" target="_blank">`+element.alt+`</a></span>`;
     }
+    else if(element.alt === "Tech Blog"){
+        captionText.innerHTML = `<span class="w3-center" style="font-size:2rem"><a href="https://whispering-plains-47939.herokuapp.com/" target="_blank">`+element.alt+`</a></span>`;
+    }
+    else if(element.alt === "Note Taker"){
+        captionText.innerHTML = `<span class="w3-center" style="font-size:2rem"><a href="https://note-itdown.herokuapp.com/" target="_blank">`+element.alt+`</a></span>`;
+    }
+    else if(element.alt === "Community Connect"){
+        captionText.innerHTML = `<span class="w3-center" style="font-size:2rem"><a href="https://gentle-peak-70353.herokuapp.com/" target="_blank">`+element.alt+`</a></span>`;
+    }
   }
   
-  // Change style of navbar on scroll
+  // Change style of navbar on scroll 
   window.onscroll = function() {myFunction()};
   function myFunction() {
       var navbar = document.getElementById("myNavbar");
